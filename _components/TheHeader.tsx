@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image";
-import logo from "@/public/img/logo.svg";
 import Link from "next/link";
 import {useEffect, useState} from "react";
 
@@ -18,7 +17,7 @@ export default function TheHeader():JSX.Element {
       <div className={'header__body container'}>
         <div className={'logo'}>
           <Link href={'/'}>
-            <Image className={'transition-all'} src={logo} alt={'logo'} width={isSmallHeader ? 50 : 120} height={75}/>
+            <Image className={'transition-all'} src={'/img/logo.svg'} alt={'logo'} width={isSmallHeader ? 50 : 120} height={75}/>
           </Link>
           <span hidden={isSmallHeader}>ЛЭГЭ АРТИС</span>
         </div>

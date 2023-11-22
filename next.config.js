@@ -1,5 +1,8 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
+
 const path = require('path');
+
 const nextConfig = {
   webpack: (config) => {
     config.resolve.alias = {
@@ -9,6 +12,6 @@ const nextConfig = {
     
     return config;
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

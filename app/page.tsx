@@ -5,7 +5,6 @@ import Services from "@/_components/Home/Services";
 import Gallery from "@/_components/Home/Gallery";
 import Partners from "@/_components/Home/Partners";
 import Contacts from "@/_components/Home/Contacts";
-import CompanyFooter from "@/_components/CompanyFooter";
 
 export default function Home():JSX.Element {
   return (
@@ -18,7 +17,6 @@ export default function Home():JSX.Element {
       <Gallery gallery={gallery}/>
       <Partners partners={partners}/>
       <Contacts />
-      <CompanyFooter/>
     </main>
   )
 }
