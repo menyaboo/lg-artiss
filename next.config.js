@@ -1,7 +1,9 @@
 // next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  future: { webpack4: true }
+  images: {
+    unoptimized: true
+  }
 };
 
 module.exports = nextConfig;
