@@ -1,6 +1,6 @@
 import MainScreen from "@/app/_components/Home/MainScreen";
 import 'aos/dist/aos.css'
-import {gallery, partners, services} from "_data";
+import {gallery, partners, services} from "@/app/_data";
 import Services from "@/app/_components/Home/Services";
 import Gallery from "@/app/_components/Home/Gallery";
 import Partners from "@/app/_components/Home/Partners";

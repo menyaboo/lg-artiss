@@ -1,4 +1,4 @@
-import bg from '@/public/img/main_sht.jpg'
+import {images} from "@/app/_data";
 
 interface Props {
   title: string;
@@ -8,7 +8,7 @@ interface Props {
 export default function MainScreen({title, description}: Props):JSX.Element {
 
   return (
-    <div style={{backgroundImage: `url(/img/main_sht.jpg)`}} id={'main-screen'}>
+    <div style={{backgroundImage: `url(${images.bg})`}} id={'main-screen'}>
       <div className={'main-screen__content'}>
         <h1>{title}</h1>
         <h2>{description}</h2>

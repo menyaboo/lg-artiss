@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import {useEffect, useState} from "react";
+import {images} from "@/app/_data";
 
 export default function TheHeader():JSX.Element {
   const [isSmallHeader, setValueSmallHeader] = useState(false)
@@ -17,7 +18,7 @@ export default function TheHeader():JSX.Element {
       <div className={'header__body container'}>
         <div className={'logo'}>
           <Link href={'/'}>
-            <Image className={'transition-all'} src={'/img/logo.svg'} alt={'logo'} width={isSmallHeader ? 50 : 120} height={75}/>
+            <Image className={'transition-all'} src={images.logo} alt={'logo'} width={isSmallHeader ? 50 : 120} height={75}/>
           </Link>
           <span hidden={isSmallHeader}>ЛЭГЭ АРТИС</span>
         </div>

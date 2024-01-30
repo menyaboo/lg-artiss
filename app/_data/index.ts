@@ -1,22 +1,27 @@
 import {Gallery, Partners, Services} from "@/app/_types";
 
+export const images = {
+  logo: '/img/logo.svg',
+  bg: '/img/main_sht.jpg',
+}
+
 export const services: Array<Services> = [
   {
     id: 0,
-    bg: 'blue_sht.png',
-    img: 'uslugi_1.jpeg',
+    bg: '/img/blue_sht.png',
+    img: '/img/services/CIMG9018.JPG',
     description: 'Применение холодной энкаустики в различного типа сооружениях.',
   },
   {
     id: 1,
-    bg: 'gold_sht.jpg',
-    img: 'uslugi_2.jpg',
+    bg: '/img/gold_sht.jpg',
+    img: '/img/services/CIMG9021.JPG',
     description: 'Декоративная отделка различных фасадов и мебели.',
   },
   {
     id: 2,
-    bg: 'blue_sht.png',
-    img: 'uslugi_3.jpg',
+    bg: '/img/blue_sht.png',
+    img: '/img/services/CIMG9019.JPG',
     description: 'Работа с фреской, орнаментом или живописью.',
   },
 ]
@@ -24,35 +29,35 @@ export const services: Array<Services> = [
 export const gallery:Array<Gallery> = [
   {
     id: 0,
-    url: '/img/gallery/gallery_1.gif',
+    url: '/img/gallery/IMG_2694.jpg',
   },
   {
     id: 1,
-    url: '/img/gallery/gallery_2.jpeg',
+    url: '/img/gallery/IMG_2699.jpg',
   },
   {
     id: 2,
-    url: '/img/gallery/gallery_3.jpg',
+    url: '/img/gallery/IMG_2712.jpg',
   },
   {
     id: 3,
-    url: '/img/gallery/gallery_4.gif',
+    url: '/img/gallery/IMG_2700.jpg',
   },
   {
     id: 4,
-    url: '/img/gallery/gallery_5.gif',
+    url: '/img/gallery/Изображение 056.jpg',
   },
   {
     id: 5,
-    url: '/img/gallery/gallery_6.jpg',
+    url: '/img/gallery/Изображение 057.jpg',
   },
   {
     id: 6,
-    url: '/img/gallery/gallery_7.jpg',
+    url: '/img/gallery/Изображение 058.jpg',
   },
   {
     id: 7,
-    url: '/img/gallery/gallery_8.gif',
+    url: '/img/gallery/Изображение 056.jpg',
   },
 ]
 
