@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Services} from "@/_types";
+import {Services} from "@/app/_types";
 
 interface Props {
   services: Array<Services>

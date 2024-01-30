@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
-import {Gallery} from "@/_types";
-import ModalGallery from "@/_components/Home/ModalGallery";
+import {Gallery} from "@/app/_types";
+import ModalGallery from "@/app/_components/Home/ModalGallery";
 import {useState} from "react";
 import { TfiClose } from "react-icons/tfi";
 interface Props {

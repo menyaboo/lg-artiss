@@ -1,4 +1,4 @@
-import {Partners} from "@/_types";
+import {Partners} from "@/app/_types";
 import Image from "next/image";
 
 interface Props {

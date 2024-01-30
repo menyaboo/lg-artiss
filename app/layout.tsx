@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import '../public/css/globals.scss'
-import TheHeader from "@/_components/TheHeader";
-import CompanyFooter from "@/_components/CompanyFooter";
+import TheHeader from "@/app/_components/TheHeader";
+import CompanyFooter from "@/app/_components/CompanyFooter";
 
 export const metadata: Metadata = {
   title: 'ЛЭГЭ АРТИС',

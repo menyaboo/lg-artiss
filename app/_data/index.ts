@@ -1,4 +1,4 @@
-import {Gallery, Partners, Services} from "@/_types";
+import {Gallery, Partners, Services} from "@/app/_types";
 
 export const services: Array<Services> = [
   {

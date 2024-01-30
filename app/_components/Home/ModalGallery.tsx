@@ -1,5 +1,5 @@
 'use client'
-import {Gallery} from "@/_types";
+import {Gallery} from "@/app/_types";
 import React, {useEffect, useRef, useState} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
